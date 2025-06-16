@@ -1,0 +1,151 @@
+$date
+	Fri Apr 19 19:10:06 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module top_module_tb $end
+$var wire 1 ! walk_right $end
+$var wire 1 " walk_left $end
+$var wire 1 # aaah $end
+$var reg 1 $ areset $end
+$var reg 1 % bump_left $end
+$var reg 1 & bump_right $end
+$var reg 1 ' clk $end
+$var reg 1 ( ground $end
+$scope module uut $end
+$var wire 1 # aaah $end
+$var wire 1 $ areset $end
+$var wire 1 % bump_left $end
+$var wire 1 & bump_right $end
+$var wire 1 ' clk $end
+$var wire 1 ( ground $end
+$var wire 1 ! walk_right $end
+$var wire 1 " walk_left $end
+$var parameter 2 ) FALL_L $end
+$var parameter 2 * FALL_R $end
+$var parameter 2 + WALK_L $end
+$var parameter 2 , WALK_R $end
+$var reg 2 - next [1:0] $end
+$var reg 2 . state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 ,
+b0 +
+b11 *
+b10 )
+$end
+#0
+$dumpvars
+b0 .
+b10 -
+0(
+0'
+0&
+0%
+1$
+0#
+1"
+0!
+$end
+#5
+1'
+#10
+0'
+0$
+#15
+1#
+0"
+b10 .
+1'
+#20
+0'
+#25
+1'
+#30
+b0 -
+0'
+1(
+#35
+0#
+1"
+b0 .
+1'
+#40
+0'
+#45
+1'
+#50
+b1 -
+0'
+1%
+#55
+0"
+1!
+b1 .
+1'
+#60
+0'
+#65
+1'
+#70
+b11 -
+0'
+0(
+#75
+1#
+0!
+b11 .
+1'
+#80
+0'
+#85
+1'
+#90
+b1 -
+0'
+1(
+0%
+#95
+0#
+1!
+b1 .
+1'
+#100
+0'
+#105
+1'
+#110
+b0 -
+0'
+1&
+#115
+1"
+0!
+b0 .
+1'
+#120
+0'
+#125
+1'
+#130
+b10 -
+0'
+0(
+#135
+1#
+0"
+b10 .
+1'
+#140
+0'
+#145
+1'
+#150
+0'

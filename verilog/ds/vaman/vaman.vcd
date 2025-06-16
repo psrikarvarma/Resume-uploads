@@ -1,0 +1,84 @@
+$date
+	Mon Apr 29 14:58:35 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module clock_tb $end
+$var wire 4 ! led [3:0] $end
+$var wire 7 " lcd_data [6:0] $end
+$var wire 1 # buzzer $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module clock_inst $end
+$var wire 1 & am_pm_led $end
+$var wire 1 # buzzer $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var wire 4 ' led [3:0] $end
+$var wire 7 ( lcd_data [6:0] $end
+$var reg 1 ) am_pm $end
+$var reg 24 * am_pm_counter [23:0] $end
+$var reg 1 + buzzer_enable $end
+$var reg 1 , buzzer_ring $end
+$var reg 1 - clock_mode $end
+$var reg 4 . hours_12 [3:0] $end
+$var reg 5 / hours_24 [4:0] $end
+$var reg 2 0 lcd_hours [1:0] $end
+$var reg 4 1 lcd_hours_1 [3:0] $end
+$var reg 4 2 lcd_hours_10 [3:0] $end
+$var reg 2 3 lcd_minutes [1:0] $end
+$var reg 4 4 lcd_minutes_1 [3:0] $end
+$var reg 4 5 lcd_minutes_10 [3:0] $end
+$var reg 2 6 lcd_seconds [1:0] $end
+$var reg 4 7 lcd_seconds_1 [3:0] $end
+$var reg 4 8 lcd_seconds_10 [3:0] $end
+$var reg 5 9 minutes [4:0] $end
+$var reg 5 : seconds [4:0] $end
+$var reg 8 ; timer [7:0] $end
+$var reg 1 < timer_done $end
+$var reg 1 = timer_enable $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0=
+0<
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+x-
+0,
+0+
+b0 *
+0)
+b0 (
+b0 '
+0&
+1%
+x$
+0#
+b0 "
+b0 !
+$end
+#10
+0%
+#100010

@@ -1,0 +1,56 @@
+$date
+	Mon Aug 12 06:56:19 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module IEEE754_adder_tb $end
+$var wire 32 ! SUM [31:0] $end
+$var reg 32 " A [31:0] $end
+$var reg 32 # B [31:0] $end
+$scope module dut_1 $end
+$var wire 32 $ a [31:0] $end
+$var wire 32 % b [31:0] $end
+$var wire 32 & sum [31:0] $end
+$var wire 1 ' sign_sum $end
+$var wire 1 ( sign_b $end
+$var wire 1 ) sign_a $end
+$var wire 24 * mantissa_sum [23:0] $end
+$var wire 24 + mantissa_b [23:0] $end
+$var wire 24 , mantissa_a [23:0] $end
+$var wire 8 - exp_sum [7:0] $end
+$var wire 8 . exp_b [7:0] $end
+$var wire 8 / exp_a [7:0] $end
+$var wire 1 0 carry $end
+$var wire 24 1 aligned_mantissa_b [23:0] $end
+$var wire 24 2 aligned_mantissa_a [23:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110010000000000000000000 2
+b10000000000000000000 1
+00
+b10000001 /
+b1111101 .
+b10000001 -
+b110010000000000000000000 ,
+b100000000000000000000000 +
+b110100000000000000000000 *
+0)
+0(
+0'
+b1000000110100000000000000000000 &
+b111110100000000000000000000000 %
+b1000000110010000000000000000000 $
+b111110100000000000000000000000 #
+b1000000110010000000000000000000 "
+b1000000110100000000000000000000 !
+$end

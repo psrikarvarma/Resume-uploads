@@ -1,0 +1,169 @@
+$date
+	Mon Apr 29 15:25:20 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_h24h12 $end
+$var reg 5 ! hour24hex [4:0] $end
+$upscope $end
+$scope module tb_h24h12 $end
+$var wire 1 " nAM_PMhex $end
+$upscope $end
+$scope module tb_h24h12 $end
+$var wire 4 # hour12hex [3:0] $end
+$upscope $end
+$scope module tb_h24h12 $end
+$var reg 6 $ hour24dec [5:0] $end
+$upscope $end
+$scope module tb_h24h12 $end
+$var wire 1 % nAM_PMdec $end
+$upscope $end
+$scope module tb_h24h12 $end
+$var wire 5 & hour12dec [4:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10010 &
+0%
+b0 $
+b1100 #
+0"
+b0 !
+$end
+#100000
+b1 &
+b1 #
+b1 $
+b1 !
+#200000
+b10 &
+b10 #
+b10 $
+b10 !
+#300000
+b11 &
+b11 #
+b11 $
+b11 !
+#400000
+b100 &
+b100 #
+b100 $
+b100 !
+#500000
+b101 &
+b101 #
+b101 $
+b101 !
+#600000
+b110 &
+b110 #
+b110 $
+b110 !
+#700000
+b111 &
+b111 #
+b111 $
+b111 !
+#800000
+b1000 &
+b1000 #
+b1000 $
+b1000 !
+#900000
+b1001 &
+b1001 #
+b1001 $
+b1001 !
+#1000000
+b10000 &
+b1010 #
+b10000 $
+b1010 !
+#1100000
+b10001 &
+b1011 #
+b10001 $
+b1011 !
+#1200000
+b10010 &
+b1100 #
+1%
+b10010 $
+1"
+b1100 !
+#1300000
+b1 &
+b1 #
+b10011 $
+b1101 !
+#1400000
+b10 &
+b10 #
+b10100 $
+b1110 !
+#1500000
+b11 &
+b11 #
+b10101 $
+b1111 !
+#1600000
+b100 &
+b100 #
+b10110 $
+b10000 !
+#1700000
+b101 &
+b101 #
+b10111 $
+b10001 !
+#1800000
+b110 &
+b110 #
+b11000 $
+b10010 !
+#1900000
+b111 &
+b111 #
+b11001 $
+b10011 !
+#2000000
+b1000 &
+b1000 #
+b100000 $
+b10100 !
+#2100000
+b1001 &
+b1001 #
+b100001 $
+b10101 !
+#2200000
+b10000 &
+b1010 #
+b100010 $
+b10110 !
+#2300000
+b10001 &
+b1011 #
+b100011 $
+b10111 !
+#2400000
+b10010 &
+b1100 #
+0%
+b0 $
+0"
+b0 !
+#2500000
+b1 &
+b1 #
+b1 $
+b1 !

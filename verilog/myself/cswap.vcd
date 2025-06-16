@@ -1,0 +1,85 @@
+$date
+	Fri Jul 19 19:30:34 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cswap_tb $end
+$var wire 1 ! C_out $end
+$var wire 1 " B_out $end
+$var wire 1 # A_out $end
+$var reg 1 $ A $end
+$var reg 1 % B $end
+$var reg 1 & C $end
+$var integer 32 ' i [31:0] $end
+$scope module uut_1 $end
+$var wire 1 $ a $end
+$var wire 1 # a_out $end
+$var wire 1 % b $end
+$var wire 1 " b_out $end
+$var wire 1 & c $end
+$var wire 1 ! c_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0"
+0!
+b1 '
+0#
+0$
+0%
+0&
+#10
+1!
+b10 '
+1&
+#15
+1"
+0!
+b11 '
+1%
+0&
+#20
+1!
+b100 '
+1&
+#25
+0"
+0!
+b101 '
+1#
+1$
+0%
+0&
+#30
+1"
+b110 '
+1&
+#35
+1!
+0"
+b111 '
+1%
+0&
+#40
+1"
+b1000 '
+1&
+#45

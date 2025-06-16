@@ -1,0 +1,140 @@
+$date
+	Sun Jul 21 20:10:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rc_tb $end
+$var wire 4 ! Q [3:0] $end
+$var reg 1 " CLK $end
+$var reg 4 # D [3:0] $end
+$var reg 1 $ RST $end
+$scope module uut_1 $end
+$var wire 1 " clk $end
+$var wire 4 % d [3:0] $end
+$var wire 1 $ rst $end
+$var reg 4 & q [3:0] $end
+$var reg 1 ' w $end
+$var reg 4 ( z [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+x'
+bx &
+b1010 %
+1$
+b1010 #
+0"
+bx !
+$end
+#100
+b0 !
+b0 &
+b1010 (
+1"
+#101
+0'
+#200
+0"
+#300
+b101 !
+b101 &
+1"
+0$
+#302
+b101 (
+#400
+0"
+#500
+b10 !
+b10 &
+1'
+1"
+#501
+b1010 !
+b1010 &
+#502
+b1010 (
+#600
+0"
+#700
+b101 !
+b101 &
+0'
+1"
+#702
+b101 (
+#800
+0"
+#900
+b10 !
+b10 &
+1'
+1"
+#901
+b1010 !
+b1010 &
+#902
+b1010 (
+#1000
+0"
+#1100
+b101 !
+b101 &
+0'
+1"
+#1102
+b101 (
+#1200
+0"
+#1300
+b10 !
+b10 &
+1'
+1"
+#1301
+b1010 !
+b1010 &
+#1302
+b1010 (
+#1400
+0"
+#1500
+b101 !
+b101 &
+0'
+1"
+#1502
+b101 (
+#1600
+0"
+#1700
+b10 !
+b10 &
+1'
+1"
+#1701
+b1010 !
+b1010 &
+#1702
+b1010 (
+#1800
+0"
+#1900
+b101 !
+b101 &
+0'
+1"
+#1902
+b101 (
+#2000
+0"

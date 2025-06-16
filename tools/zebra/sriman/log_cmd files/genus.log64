@@ -1,0 +1,31 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.10-p001_1, built Fri Dec 11 02:59:55 PST 2020
+Options: -legacy_ui -files /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark4/tcl/fv/b14/read_libs.tcl 
+Date:    Tue Nov 26 09:59:44 2024
+Host:    DIGITAL-SERVER (x86_64 w/Linux 3.10.0-1160.36.2.el7.x86_64) (8cores*64cpus*4physical cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB) (131826584KB)
+PID:     22324
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+
+Finished loading tool scripts (28 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark4/tcl/fv/b14/read_libs.tcl
+invalid command name "add_search_path"
+Encountered problems processing file: /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark4/tcl/fv/b14/read_libs.tcl
+WARNING: This version of the tool is 1445 days old.
+legacy_genus:/> exit
+Normal exit.

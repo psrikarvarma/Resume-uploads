@@ -1,0 +1,45 @@
+$date
+	Thu Apr 25 06:21:34 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module clk_tb $end
+$var parameter 32 ! para $end
+$var reg 1 " clk $end
+$scope module uut $end
+$var wire 1 " clk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 !
+$end
+#0
+$dumpvars
+0"
+$end
+#1
+1"
+#2
+0"
+#3
+1"
+#4
+0"
+#5
+1"
+#6
+0"
+#7
+1"
+#8
+0"
+#9
+1"
+#10
+0"

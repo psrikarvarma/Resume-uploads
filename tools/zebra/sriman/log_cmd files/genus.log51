@@ -1,0 +1,165 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.10-p001_1, built Fri Dec 11 02:59:55 PST 2020
+Options: -legacy_ui -files /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/tcl/FADD_Dual_Main_400MHtz_fast_hvt.tcl 
+Date:    Tue Nov 26 09:18:57 2024
+Host:    DIGITAL-SERVER (x86_64 w/Linux 3.10.0-1160.36.2.el7.x86_64) (8cores*64cpus*4physical cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB) (131826584KB)
+PID:     21266
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+
+Finished loading tool scripts (23 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/tcl/FADD_Dual_Main_400MHtz_fast_hvt.tcl
+  Setting attribute of root '/': 'init_lib_search_path' = /DIG_DESIGN/INTERNS/PDK_DIC
+  Setting attribute of root '/': 'init_hdl_search_path' = /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl
+
+Threads Configured:3
+
+  Message Summary for Library fast_vdd1v0_basicCells_hvt.lib:
+  ***********************************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  ***********************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.100000, 0.000000) in library 'fast_vdd1v0_basicCells_hvt.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNAHVT' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNAHVT' must have an output pin.
+  Setting attribute of root '/': 'library' = fast_vdd1v0_basicCells_hvt.lib
+    assign e_large_hidden_bit[1]=i_mode?e_hl|xl:e_hl;
+                                        |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'e_hl' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 48, column 41.
+        : Verilog module is using a parameter that is not defined in the module. You will get a notification for this, if you read the verilog file using the read_hdl command.
+    assign e_large_hidden_bit[1]=i_mode?e_hl|xl:e_hl;
+                                             |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'xl' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 48, column 46.
+    assign e_large_hidden_bit[1]=i_mode?e_hl|xl:e_hl;
+                                                |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'e_hl' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 48, column 49.
+    assign e_small_hidden_bit[1]=i_mode?e_hs|xs:e_hs;
+                                        |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'e_hs' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 49, column 41.
+    assign e_small_hidden_bit[1]=i_mode?e_hs|xs:e_hs;
+                                             |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'xs' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 49, column 46.
+    assign e_small_hidden_bit[1]=i_mode?e_hs|xs:e_hs;
+                                                |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'e_hs' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/Extraction.v' on line 49, column 49.
+    wire [15:0] e_large_exp,e_small_exp;
+                           |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_large_exp' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 33, column 28.
+        : A variable cannot be redeclared in the same scope. Check the reported RTL file and remove duplicate declarations.
+    wire [15:0] e_large_exp,e_small_exp;
+                                       |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_small_exp' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 33, column 40.
+    wire [52:0] e_large_frac53,e_small_frac53;
+                              |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_large_frac53' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 34, column 31.
+    wire [52:0] e_large_frac53,e_small_frac53;
+                                             |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_small_frac53' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 34, column 46.
+    wire [1:0] e_large_expff,e_small_expff,e_large_frac00,e_small_frac00;
+                            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_large_expff' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 35, column 29.
+    wire [1:0] e_large_expff,e_small_expff,e_large_frac00,e_small_frac00;
+                                          |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_small_expff' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 35, column 43.
+    wire [1:0] e_large_expff,e_small_expff,e_large_frac00,e_small_frac00;
+                                                         |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_large_frac00' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 35, column 58.
+    wire [1:0] e_large_expff,e_small_expff,e_large_frac00,e_small_frac00;
+                                                                        |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_small_frac00' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 35, column 73.
+    wire [1:0] e_small_hidden_bit,e_large_hidden_bit,e_op,e_Ls;
+                                 |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_small_hidden_bit' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 36, column 34.
+    wire [1:0] e_small_hidden_bit,e_large_hidden_bit,e_op,e_Ls;
+                                                    |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_large_hidden_bit' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 36, column 53.
+    wire [1:0] e_small_hidden_bit,e_large_hidden_bit,e_op,e_Ls;
+                                                         |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_op' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 36, column 58.
+    wire [1:0] e_small_hidden_bit,e_large_hidden_bit,e_op,e_Ls;
+                                                              |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'e_Ls' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 36, column 63.
+     wire a_mode;
+                |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_mode' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 42, column 17.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                            |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_large_expff' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 29.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                          |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_small_expff' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 43.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                                         |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_large_frac00' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 58.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                                                        |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_small_frac00' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 73.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                                                                           |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_small_hidden_bit' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 92.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                                                                                              |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_large_hidden_bit' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 111.
+     wire[1:0] a_large_expff,a_small_expff,a_large_frac00,a_small_frac00,a_small_hidden_bit,a_large_hidden_bit,a_op,a_Ls;
+                                                                                                                   |
+Error   : Redeclared variable. [VLOGPT-22] [read_hdl]
+        : Redeclaration of non-interface variable 'a_op' in file '/DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/rtl/FADD_Dual_Main.v' on line 43, column 116.
+1
+Encountered problems processing file: /DIG_DESIGN/INTERNS/dic_lab_02/sriman/benchmark8/tcl/FADD_Dual_Main_400MHtz_fast_hvt.tcl
+WARNING: This version of the tool is 1445 days old.
+legacy_genus:/> cd ~
+Error   : A required object parameter could not be found. [TUI-61] [vcd]
+        : An object named '~' could not be found.
+        : Check to make sure that the object exists and is of the correct type.  The 'what_is' command can be used to determine the type of an object.
+  vcd: sets position in object hierarchy 
+
+Usage: vcd [<object>]
+
+    [<object>]:
+        dos target directory 
+1

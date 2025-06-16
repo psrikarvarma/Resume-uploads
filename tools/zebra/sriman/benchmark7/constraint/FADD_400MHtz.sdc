@@ -1,0 +1,6 @@
+set_input_delay -max 1.0 [get_ports "rst"]
+set_input_delay -max 1.0 [get_ports "i_mode"]
+set_input_delay -max 1.0 [get_ports "i_A[*]"]
+set_input_delay -max 1.0 [get_ports "i_B[*]"]
+set_output_delay -max 1.0 [get_ports "o_res[*]"]
+set_max_delay 8.0 -from [get_ports "i_A[]"] -to [get_ports "o_res[]"]

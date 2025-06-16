@@ -1,0 +1,10 @@
+# Clock constraints
+create_clock -name TX_CLK -period 2.5 -waveform {0 1.25} [get_ports "TX_CLK"]
+set_clock_transition -rise 0.1 [get_clocks "TX_CLK"]
+set_clock_transition -fall 0.1 [get_clocks "TX_CLK"]
+set_clock_uncertainty 0.01 [get_clocks "TX_CLK"]
+create_clock -name RX_CLK -period 2.5 -waveform {0 1.25} [get_ports "RX_CLK"]
+set_clock_transition -rise 0.1 [get_clocks "RX_CLK"]
+set_clock_transition -fall 0.1 [get_clocks "RX_CLK"]
+set_clock_uncertainty 0.01 [get_clocks "RX_CLK"]
+set_input_delay -max 1.0 [get_ports "RST"] -clock [get_clocks "RX_CLK"]

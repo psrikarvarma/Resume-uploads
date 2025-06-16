@@ -1,0 +1,102 @@
+$date
+	Mon Apr 22 05:54:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module i2c_master_tb $end
+$var wire 1 ! scl $end
+$var wire 1 " sda $end
+$var wire 3 # slave_select [2:0] $end
+$var wire 5 $ data_out [4:0] $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$var reg 1 ' sda_drv $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var wire 1 ! scl $end
+$var wire 1 " sda $end
+$var reg 5 ( data_out [4:0] $end
+$var reg 1 ) sda_dir $end
+$var reg 1 * sda_out $end
+$var reg 3 + slave_select [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+x*
+x)
+bx (
+0'
+1&
+0%
+bx $
+bx #
+x"
+z!
+$end
+#10000
+z"
+0)
+0*
+b0 $
+b0 (
+b0 #
+b0 +
+1%
+#20000
+1"
+0%
+1'
+0&
+#30000
+1%
+#40000
+0%
+#50000
+1%
+#60000
+z"
+0%
+0'
+#70000
+1%
+#80000
+1"
+0%
+1'
+#90000
+1%
+#100000
+z"
+0%
+0'
+#110000
+1%
+#120000
+0%
+#130000
+1%
+#140000
+0%
+#150000
+1%
+#160000
+0%
+#170000
+1%
+#180000
+0%
+#190000
+1%
+#200000
+0%
