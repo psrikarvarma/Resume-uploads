@@ -1,0 +1,38 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CC0402JPNPO9BN101" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at -4.07234 2.29069 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CC0402JPNPO9BN101" (id 1) (at -4.06605 -4.06605 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CC0402JPNPO9BN101:INDC0402X01" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CC0402JPNPO9BN101_0_0"
+      (rectangle (start -0.7658115 -2.0358115) (end -0.2571185 2.0351185)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start 0.2517765 -2.0342235) (end 0.7604135 2.0335865)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (pin passive line (at -5.588 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.588 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

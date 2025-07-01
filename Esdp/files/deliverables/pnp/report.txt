@@ -1,0 +1,3 @@
+Placement file: 'C:\Users\Srikar Varma\Downloads\jumbo\pnp\12i(overall)-all-pos.csv'.
+Info: Component count: 255.
+Info: Done.
